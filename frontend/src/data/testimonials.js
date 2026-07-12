@@ -1,0 +1,36 @@
+// Testimonials data
+export const testimonialsData = [
+  {
+    id: 1,
+    name: 'Rahul Sharma',
+    role: 'Full-Time Trader',
+    location: 'Mumbai',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    review: 'Apex Trading Academy completely transformed my approach to markets. Within 3 months of the Pro Mentorship program, I was consistently profitable. The live sessions and personal guidance are absolutely world-class.',
+    profit: '+47% Portfolio',
+    course: 'Pro Mentorship',
+  },
+  {
+    id: 2,
+    name: 'Priya Menon',
+    role: 'IT Professional & Trader',
+    location: 'Bangalore',
+    image: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    review: 'I was completely new to trading and had zero knowledge. The Beginner course is so well structured that even a non-finance person like me understood everything. Now I trade confidently with proper risk management!',
+    profit: '+28% Returns',
+    course: 'Beginner Trading',
+  },
+  {
+    id: 3,
+    name: 'Arjun Nair',
+    role: 'Business Owner & Investor',
+    location: 'Kerala',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+    rating: 5,
+    review: 'The Swing Trading course gave me strategies that actually work in real market conditions. The risk management module alone saved me from several bad trades. Worth every single rupee invested!',
+    profit: '+62% in 6 Months',
+    course: 'Swing Trading',
+  },
+];
