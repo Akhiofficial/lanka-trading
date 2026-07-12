@@ -7,7 +7,7 @@ export const testimonialsData = [
     location: 'Mumbai',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
     rating: 5,
-    review: 'Apex Trading Academy completely transformed my approach to markets. Within 3 months of the Pro Mentorship program, I was consistently profitable. The live sessions and personal guidance are absolutely world-class.',
+    review: 'Lanka Enterprises completely transformed my approach to markets. Within 3 months of the Pro Mentorship program, I was consistently profitable. The live sessions and personal guidance are absolutely world-class.',
     profit: '+47% Portfolio',
     course: 'Pro Mentorship',
   },

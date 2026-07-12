@@ -17,7 +17,7 @@ export const faqData = [
   },
   {
     id: 4,
-    question: 'What makes Apex different from other trading academies?',
+    question: 'What makes Lanka Enterprises different from other trading academies?',
     answer: 'We focus on practical, real-market learning — not just theory. Our mentors are active traders with 5+ years of consistent profitability. We provide live sessions, personalized feedback, and an active community that supports your growth.',
   },
   {
