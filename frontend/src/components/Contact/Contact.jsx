@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, Phone, Mail, MapPin } from 'lucide-react';
+import { Send, Phone, Mail } from 'lucide-react';
 
 const contactInfo = [
   { icon: <Phone size={20} />, label: 'Phone', value: '+91 84509 54355', href: 'tel:+918450954355' },
   { icon: <Mail size={20} />, label: 'Email', value: 'Priyankadongare381@gmail.com', href: 'mailto:Priyankadongare381@gmail.com' },
-  { icon: <MapPin size={20} />, label: 'Location', value: 'Mumbai, Maharashtra, India', href: '#' },
 ];
 
 const Contact = () => {
@@ -52,7 +51,7 @@ const Contact = () => {
                 key={info.label}
                 href={info.href}
                 className="contact-info-card"
-                style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 16, padding: '20px 24px', background: '#0d1b2e', border: '1px solid rgba(148,163,184,0.08)', borderRadius: 16, marginBottom: 14, transition: 'border-color 0.2s' }}
+                style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 16, padding: '20px 24px', background: '#0d1b2e', border: '1px solid rgba(148,163,184,0.08)', borderRadius: 16, marginBottom: 16, transition: 'border-color 0.2s' }}
               >
                 <div
                   className="icon-box icon-box-sm"
@@ -67,15 +66,18 @@ const Contact = () => {
               </a>
             ))}
 
-            {/* Map */}
-            <div className="map-container">
-              <iframe
-                title="Lanka Enterprises Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609790817!2d72.74110232!3d19.0822507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
-                allowFullScreen=""
-                loading="lazy"
-              />
+            {/* Support Info Card */}
+            <div style={{ background: 'linear-gradient(145deg, #0d1b2e 0%, #0a1628 100%)', padding: '28px 24px', borderRadius: 16, border: '1px solid rgba(148,163,184,0.08)' }}>
+              <h3 style={{ color: '#fff', fontSize: '1.15rem', fontWeight: 700, marginBottom: 12, fontFamily: "'Outfit', sans-serif" }}>We're here to help</h3>
+              <p style={{ color: '#64748b', fontSize: '0.95rem', lineHeight: 1.6, marginBottom: 20 }}>
+                Not sure which program is right for you? Have questions about our live sessions? Send us a message and our expert support team will guide you.
+              </p>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10, color: '#22c55e', fontSize: '0.9rem', fontWeight: 600 }}>
+                <span className="dot" style={{ position: 'relative', width: 8, height: 8, background: '#22c55e', boxShadow: '0 0 10px #22c55e' }} />
+                Usually responds within 2 hours
+              </div>
             </div>
+
           </motion.div>
 
           {/* Right — Form */}

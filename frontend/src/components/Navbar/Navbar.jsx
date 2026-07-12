@@ -45,20 +45,14 @@ const Navbar = () => {
         <div className="container">
           <div className="nav-inner">
             {/* Logo */}
-            <Link to="/" className="nav-logo" onClick={() => handleNavClick('')}>
-              <motion.div
-                className="nav-logo-icon"
-                whileHover={{ rotate: 8, scale: 1.1 }}
+            <Link to="/" className="nav-logo" onClick={() => handleNavClick('')} style={{ display: 'flex', alignItems: 'center' }}>
+              <motion.img
+                src="/lanka-logo.png"
+                alt="Lanka Enterprises"
+                style={{ height: '64px', width: 'auto', objectFit: 'contain' }}
+                whileHover={{ scale: 1.05 }}
                 transition={{ type: 'spring', stiffness: 300 }}
-              >
-                <TrendingUp size={20} color="#fff" />
-              </motion.div>
-              <div className="nav-logo-text">
-                <span className="nav-logo-name">
-                  Lanka <span className="gradient-text">Enterprises</span>
-                </span>
-                <span className="nav-logo-sub">Trading Academy</span>
-              </div>
+              />
             </Link>
 
             {/* Desktop Links */}

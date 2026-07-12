@@ -19,7 +19,6 @@ const footerLinks = {
   'Contact': [
     { label: '+91 84509 54355', href: 'tel:+918450954355' },
     { label: 'Priyankadongare381@gmail.com', href: 'mailto:Priyankadongare381@gmail.com' },
-    { label: 'Mumbai, Maharashtra, India', href: '#' },
     { label: 'Mon–Sat: 9am – 7pm', href: '#' },
   ],
 };
@@ -40,14 +39,12 @@ const Footer = () => (
       <div className="footer-grid">
         {/* Brand */}
         <div>
-          <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 12 }}>
-            <div className="nav-logo-icon">
-              <TrendingUp size={20} color="#fff" />
-            </div>
-            <div className="nav-logo-text">
-              <span className="nav-logo-name">Lanka <span className="gradient-text">Enterprises</span></span>
-              <span className="nav-logo-sub">Trading Academy</span>
-            </div>
+          <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+            <img 
+              src="/lanka-logo.png" 
+              alt="Lanka Enterprises" 
+              style={{ height: '72px', width: 'auto', objectFit: 'contain' }} 
+            />
           </Link>
 
           <p className="footer-brand-desc">
